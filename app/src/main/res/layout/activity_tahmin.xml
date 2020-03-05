@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TahminActivity">
+
+
+
+    <TextView
+        android:id="@+id/textWiewKalanHak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kalan:5"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:id="@+id/textWiewYardim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:hint="İp Ucu"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/textWiewKalanHak"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/editTextGirdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_below="@id/textWiewYardim"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:hint="0-50 Arası Sayi Giriniz"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/buttonTahmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Tahmin Et"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        />
+
+</RelativeLayout>

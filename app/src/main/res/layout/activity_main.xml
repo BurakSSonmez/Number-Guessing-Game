@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/white">
+
+    <include layout="@layout/actionbar_app"
+        android:id="@+id/actionBar"/>
+
+    <TextView
+        android:id="@+id/tahminyazi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sayı Tahmin Et"
+        android:textSize="35sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/sayitahmin"
+        android:layout_below="@id/tahminyazi"
+        android:layout_marginTop="55dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/butonRandom"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="55dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/sayitahmin"
+        android:text="Admin"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="35sp"
+        android:layout_below="@id/tahminyazi"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/buttonBasla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Oyuna Başla"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        />
+
+</RelativeLayout>

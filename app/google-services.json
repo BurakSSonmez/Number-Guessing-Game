@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "218405696758",
+    "firebase_url": "https://sayitahmin-f5617.firebaseio.com",
+    "project_id": "sayitahmin-f5617",
+    "storage_bucket": "sayitahmin-f5617.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218405696758:android:362f84738de32c01",
+        "android_client_info": {
+          "package_name": "com.example.istbr.dagitikdersproje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218405696758-l55qeophud0odvn8ubefp04pk3j86aim.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.istbr.dagitikdersproje",
+            "certificate_hash": "eee04f990cd2b17d2aea468dc39999acda619772"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZhG689FBFL9F0OpO8N1P5vMJaNOuxlCY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218405696758-2f8k4mlp5vmirbqpbnpa9ih0u82btpih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
